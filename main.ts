@@ -7,7 +7,7 @@ const MAX_CHARS = 200;
 
 // The whole entry: one joke, no setup, no explanation.
 const line =
-  "I asked my AI to make me a sandwich; it generated a picture of one, cited three sources, and apologized that the bread was imaginary.";
+  "I asked my AI to make me a sandwich; it hallucinated a picture, cited three fake sources, and apologized that the bread was imaginary.";
 
 if (line.trim().length === 0) {
   throw new Error("entry line must not be empty");
